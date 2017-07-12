@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.logo {
+  float: left;
+  padding: .5%;
+  background-color: #F5005B;
+}
+
+.logo img {
+  height: 7em;
+  width: 6em;}
+
+header, footer {
+    background-color: #7DDFE8;
+    width: 100%;
+}
+
+nav{
+  display: flex;
+  flex: 1;
+}
+.home, .join, .calendar {
+  color: white;
+  padding-top: 4%;
+  text-align: center;
+  background-color: #00A5BF;
+  font-size: 2em;
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 2.6em;
+  width: 3.5em;
+  text-decoration: none;
+}
+.home {
+  background-color: #00A5BF;
+}
+.join {
+  background-color: #00D5E7;
+}
+.calendar {
+  background-color: #00B7D3;
+}
+
+body {
+  font-family: 'PT Sans';
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: lighter;
+  padding-left: 2%;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+
+}
+
+.profile_pic label{
+  width: 30%;
+}
+.right-side-top {
+  flex: 1;
+  display: flex;
+  width: 30%;
+}
+
+.top-row, .bottom-row {
+  width: 35%;
+justify-content: space-between;
+}
+
+#join-image {
+  border-radius: 50%;
+  height: 20%;
+  width: 20%;
+  padding: 2%;
+}
+.genres{
+display: flex;
+flex-direction: row;
+}
+
+.signupbtn {
+  background-color: #f5005b;
+  color: white;
+  font-size: 1em;
+  width: 12%;
+  text-align: center;
+  padding: 1%;
+  border-radius: 2%;
+}
+
+
+
+.copyright {
+  margin-left: 50%;
+  margin-top: 4%;
+  font-size: 125%;
+  text-align: right;
+  color: white;
+}
